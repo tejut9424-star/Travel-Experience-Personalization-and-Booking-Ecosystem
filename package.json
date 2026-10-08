@@ -1,0 +1,14 @@
+{
+  "name": "tripora-ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tripora AI Travel Platform Workspace",
+  "scripts": {
+    "dev": "npm --prefix services/api-gateway run dev & npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:gateway": "npm --prefix services/api-gateway run dev",
+    "build": "npm --prefix services/api-gateway run build && npm --prefix frontend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:gateway": "npm --prefix services/api-gateway run build"
+  }
+}
